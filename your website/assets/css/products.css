@@ -1,0 +1,125 @@
+*{
+    font-family:'poppins', sans-serif;
+    background-color: #e0e0e0;
+}
+
+h1 {
+    height:100px;
+    max-width:100%;
+    background-color:rgb(192, 216, 192); 
+    color:black;
+    font-weight:bold;
+    font-size:43px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+nav{
+    margin:0px;
+    padding:0px;
+    height:25px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+ul li{
+    list-style:none;
+    display: inline;
+    padding:25px; 
+    font-weight:bold;
+    font-size:22px;
+}
+
+a{
+    color:rgb(100, 149, 100);
+    text-decoration: none; 
+}
+a:hover{
+    background-color: rgb(190, 184, 184);
+    border-radius:5px;
+    cursor: pointer;
+
+}
+main{
+    margin:50px 100px;
+    /* background-color: #e0e0e0; */
+}
+h2{
+    color:rgb(78, 77, 77)
+}
+section{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+article{
+    display:inline; 
+    text-align:center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    flex:1;
+    border-radius: 8px;
+    margin:70px 50px;
+    max-width:300px;
+    width:100%;
+    flex-direction:column;
+
+}
+article h2{
+    margin-bottom: 10px;
+    color:rgb(59, 59, 59);
+    background-color: #fff;
+}
+article p{
+    color:#555;
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding:5px 10px;
+    
+}
+
+article img{
+    height:auto;
+    border-radius: 5px;
+    width:90%;
+    margin-top:12px;
+   
+
+}
+.price{
+    color:rgb(105, 160, 105);
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    article {
+        margin: 20px; 
+        max-width: 100%; 
+        width: 100%;
+        padding: 10px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    article {
+        margin: 10px; 
+        padding: 5px; 
+    }
+}
+
+footer p{
+    height:85px;
+    max-width: 100%;
+    background-color: rgb(13, 72, 13);
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
